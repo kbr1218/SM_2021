@@ -1,7 +1,7 @@
 public class Members {
 	//Chapter3 OPP - 3.3 Inheritance : Lab2-1 (1) Members
 
-	static String name;
+	String name;
 	String dept;
 	String major;
 	int id;
