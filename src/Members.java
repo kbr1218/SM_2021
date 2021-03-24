@@ -1,7 +1,7 @@
 public class Members {
 	//Chapter3 OPP - 3.3 Inheritance : Lab2-1 (1) Members
 
-	String name;
+	static String name;
 	String dept;
 	String major;
 	int id;
@@ -22,5 +22,6 @@ public class Members {
 	public void work() {
 		System.out.println("\tStudent: \"" + name + "\" does his best.");
 	}
+
 
 }
