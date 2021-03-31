@@ -23,5 +23,10 @@ public class Members {
 		System.out.println("\tStudent: \"" + name + "\" does his best.");
 	}
 
+	//추가된 study()
+	public void study() {
+		System.out.println("\t\t \"My name is " + name + ". I'm studying Java.\"");		
+	}
+
 
 }

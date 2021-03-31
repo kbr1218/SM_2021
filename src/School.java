@@ -22,7 +22,11 @@ class School {
 		int n = students.length;
 		for (int i = 0; i < n; i++) {
 			students[i].work();
+			
+			//추가된 student
+			students[i].study();
 		}
+		
 	}
 
 	public static void main (String args[]) {
